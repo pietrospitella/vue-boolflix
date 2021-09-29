@@ -1,0 +1,7 @@
+@import "~flag-icon-css/css/flag-icon.min.css";
+
+.not_here::after {
+    content: "...";
+    font-weight: bold;
+    font-size: 20px;
+}
