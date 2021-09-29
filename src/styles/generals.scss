@@ -1,7 +1,11 @@
 @import "~flag-icon-css/css/flag-icon.min.css";
 
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
 .not_here::after {
-    content: "...";
+    font-family: "Font Awesome 5 Free";
+    content: "\f0ac";
+    color: cadetblue;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
