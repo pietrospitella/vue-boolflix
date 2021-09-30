@@ -32,4 +32,27 @@ export default {
 
 <style scoped lang="scss">
 
+main {
+    background-color: #333333;
+    color: #FFFFFF;
+    height: calc(100% - 70px);
+
+  h2 {
+    font-size: 32px;
+    margin-left: 20px;
+  }
+
+  .cards{
+    display: flex;
+
+  flex-wrap: wrap;
+  }
+}
+
+.movies, .tvShows {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 </style>
